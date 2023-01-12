@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="CalculatorApp.CalcMainPage"
+    Title="Calculator"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    ios:Page.UseSafeArea="True">
+    
+    <ContentPage.Content>
+        <Grid>
+            <Image Source="https://forums.windowscentral.com/attachments/windows-phone-8-1-preview-developers/66385d1400008805t-mathematics-wallpaper-10198792-1-.jpg"
+                   Opacity="0.7" Aspect="Fill" />
+                <Grid RowDefinitions="Auto,Auto" VerticalOptions="Center">
+                <StackLayout Grid.Row="0" Grid.Column="0" HeightRequest="120"
+                             BackgroundColor="#333">
+                    <Entry x:Name="calculation" Text="" TextColor="White" FontSize="65"
+                            HorizontalTextAlignment="End" VerticalTextAlignment="End"
+                           BackgroundColor="#333" HeightRequest="120"/>
+                </StackLayout>
+                <Grid RowDefinitions="Auto,Auto,Auto,Auto" ColumnDefinitions="*,*,*,*"
+                      BackgroundColor="#000" Grid.Row="1" Grid.Column="0" Margin="-10" Padding="10">
+                    <Button Text="Clear" Grid.Row="0" Grid.Column="0" x:Name="ButtonStart"
+                            TextColor="white" FontSize="Title" FontAttributes="Bold"
+                            BackgroundColor="#555" x:FieldModifier="public"
+                            Clicked="ButtonStart_Clicked"/>
+
+                    <Button Text="+/-" Grid.Row="0" Grid.Column="1"  x:Name="ButtonX"
+                            TextColor="white" FontSize="Title" FontAttributes="Bold"
+                            BackgroundColor="#555" x:FieldModifier="public"
+                            Clicked="ButtonX_Clicked"/>
+
+                    <Button Text="%" Grid.Row="0" Grid.Column="2" Margin="1"  x:Name="ButtonPercent"
+                             TextColor="white" FontSize="Title" FontAttributes="Bold"
+                            BackgroundColor="#555" x:FieldModifier="public"
+                            Clicked="ButtonPercent_Clicked"/>
+
+                    <Button Text="÷" Grid.Row="0" Grid.Column="3" Margin="1"  x:Name="ButtonDivide"
+                            TextColor="white" FontSize="40" FontAttributes="Bold"
+                            BackgroundColor="Orange" x:FieldModifier="public"
+                            Clicked="ButtonDivide_Clicked"/>
+
+                    <Button Text="7" Grid.Row="1" Grid.Column="0" Margin="1" x:Name="ButtonSeven"
+                            TextColor="white" FontSize="Title" FontAttributes="Bold"
+                            BackgroundColor="#555" x:FieldModifier="public"
+                            Clicked="ButtonSeven_Clicked"/>
+
+                    <Button Text="8" Grid.Row="1" Grid.Column="1" x:Name="ButtonEight"
+                            TextColor="white" FontSize="Title" FontAttributes="Bold"
+                            BackgroundColor="#555" x:FieldModifier="public"
+                            Clicked="ButtonEight_Clicked"/>
+
+                    <Button Text="9" Grid.Row="1" Grid.Column="2" x:Name="ButtonNine"
+                            TextColor="white" FontSize="Title" FontAttributes="Bold"
+                            BackgroundColor="#555" x:FieldModifier="public"
+                            Clicked="ButtonNine_Clicked"/>
+
+                    <Button Text="×" Grid.Row="1" Grid.Column="3" x:Name="ButtonMultiply"
+                            TextColor="white" FontSize="40" FontAttributes="Bold"
+                            BackgroundColor="Orange" x:FieldModifier="public"
+                            Clicked="ButtonMultiply_Clicked"/>
+
+                    <Button Text="4" Grid.Row="2" Grid.Column="0" x:Name="ButtonFour"
+                            TextColor="white" FontSize="Title" FontAttributes="Bold"
+                            BackgroundColor="#555" x:FieldModifier="public"
+                            Clicked="ButtonFour_Clicked"/>
+
+                    <Button Text="5" Grid.Row="2" Grid.Column="1" x:Name="ButtonFive"
+                            TextColor="white" FontSize="Title" FontAttributes="Bold"
+                            BackgroundColor="#555" x:FieldModifier="public"
+                            Clicked="ButtonFive_Clicked"/>
+
+                    <Button Text="6" Grid.Row="2" Grid.Column="2" x:Name="ButtonSix"
+                            TextColor="white" FontSize="Title" FontAttributes="Bold"
+                            BackgroundColor="#555" x:FieldModifier="public"
+                            Clicked="ButtonSix_Clicked"/>
+
+                    <Button Text="-" Grid.Row="2" Grid.Column="3" x:Name="ButtonMinus"
+                            TextColor="white" FontSize="40" FontAttributes="Bold"
+                            BackgroundColor="Orange" x:FieldModifier="public"
+                            Clicked="ButtonMinus_Clicked"/>
+
+                    <Button Text="1" Grid.Row="3" Grid.Column="0" x:Name="ButtonOne"
+                            TextColor="white" FontSize="Title" FontAttributes="Bold"
+                            BackgroundColor="#555" x:FieldModifier="public"
+                            Clicked="ButtonOne_Clicked"/>
+
+                    <Button Text="2" Grid.Row="3" Grid.Column="1" x:Name="ButtonTwo"
+                            TextColor="white" FontSize="Title" FontAttributes="Bold"
+                            BackgroundColor="#555" x:FieldModifier="public"
+                            Clicked="ButtonTwo_Clicked"/>
+
+                    <Button Text="3" Grid.Row="3" Grid.Column="2" x:Name="ButtonThree"
+                            TextColor="white" FontSize="Title" FontAttributes="Bold"
+                            BackgroundColor="#555" x:FieldModifier="public"
+                            Clicked="ButtonThree_Clicked"/>
+
+                    <Button Text="+" Grid.Row="3" Grid.Column="3" x:Name="ButtonPlus"
+                            TextColor="white" FontSize="40" FontAttributes="Bold"
+                            BackgroundColor="Orange" x:FieldModifier="public"
+                            Clicked="ButtonPlus_Clicked"/>
+
+                    <Button Text="0" Grid.Row="4" Grid.Column="0" x:Name="ButtonZero"
+                            Grid.ColumnSpan="2" BackgroundColor="#555"
+                            TextColor="white" FontSize="Title" FontAttributes="Bold"
+                             x:FieldModifier="public" Clicked="ButtonZero_Clicked"/>
+
+                    <Button Text="." Grid.Row="4" Grid.Column="2" x:Name="ButtonPoint"
+                            TextColor="white" FontSize="Title" FontAttributes="Bold"
+                            BackgroundColor="#555" x:FieldModifier="public"
+                            Clicked="ButtonPoint_Clicked"/>
+
+                    <Button Text="=" Grid.Row="4" Grid.Column="3" x:Name="ButtonEqual"
+                            TextColor="white" FontSize="40" FontAttributes="Bold"
+                            BackgroundColor="Orange" x:FieldModifier="public"
+                            Clicked="ButtonEqual_Clicked" />
+                </Grid>
+        </Grid>
+        </Grid>
+        
+    </ContentPage.Content>
+</ContentPage>
+

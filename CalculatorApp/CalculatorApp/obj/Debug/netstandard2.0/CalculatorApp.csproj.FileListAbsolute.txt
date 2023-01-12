@@ -1,0 +1,15 @@
+/Users/tarini.vishnukishore/Projects/CalculatorApp/CalculatorApp/CalculatorApp/bin/Debug/netstandard2.0/CalculatorApp.deps.json
+/Users/tarini.vishnukishore/Projects/CalculatorApp/CalculatorApp/CalculatorApp/bin/Debug/netstandard2.0/CalculatorApp.dll
+/Users/tarini.vishnukishore/Projects/CalculatorApp/CalculatorApp/CalculatorApp/bin/Debug/netstandard2.0/ref/CalculatorApp.dll
+/Users/tarini.vishnukishore/Projects/CalculatorApp/CalculatorApp/CalculatorApp/bin/Debug/netstandard2.0/CalculatorApp.pdb
+/Users/tarini.vishnukishore/Projects/CalculatorApp/CalculatorApp/CalculatorApp/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/tarini.vishnukishore/Projects/CalculatorApp/CalculatorApp/CalculatorApp/obj/Debug/netstandard2.0/CalcMainPage.xaml.g.cs
+/Users/tarini.vishnukishore/Projects/CalculatorApp/CalculatorApp/CalculatorApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/tarini.vishnukishore/Projects/CalculatorApp/CalculatorApp/CalculatorApp/obj/Debug/netstandard2.0/CalculatorApp.AssemblyInfoInputs.cache
+/Users/tarini.vishnukishore/Projects/CalculatorApp/CalculatorApp/CalculatorApp/obj/Debug/netstandard2.0/CalculatorApp.AssemblyInfo.cs
+/Users/tarini.vishnukishore/Projects/CalculatorApp/CalculatorApp/CalculatorApp/obj/Debug/netstandard2.0/CalculatorApp.csproj.CoreCompileInputs.cache
+/Users/tarini.vishnukishore/Projects/CalculatorApp/CalculatorApp/CalculatorApp/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/tarini.vishnukishore/Projects/CalculatorApp/CalculatorApp/CalculatorApp/obj/Debug/netstandard2.0/CalculatorApp.dll
+/Users/tarini.vishnukishore/Projects/CalculatorApp/CalculatorApp/CalculatorApp/obj/Debug/netstandard2.0/ref/CalculatorApp.dll
+/Users/tarini.vishnukishore/Projects/CalculatorApp/CalculatorApp/CalculatorApp/obj/Debug/netstandard2.0/CalculatorApp.pdb
+/Users/tarini.vishnukishore/Projects/CalculatorApp/CalculatorApp/CalculatorApp/obj/Debug/netstandard2.0/CalculatorApp.csproj.AssemblyReference.cache
